@@ -1,0 +1,66 @@
+
+html {
+	background-color: gold;
+}
+
+.a, .b, .c, .d, .e {
+	visibility: hidden;
+}
+
+.a {
+	visibility: visible;
+}
+
+@media screen and (min-width: 768px) {
+	html {
+		background-color: lightpink;
+	}
+	
+	.a, .b, .c, .d, .e {
+		visibility: hidden;
+	}
+	
+	.b {
+		visibility: visible;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	html {
+		background-color: chocolate;
+	}
+	
+	.a, .b, .c, .d, .e {
+		visibility: hidden;
+	}
+	
+	.c {
+		visibility: visible;
+	}
+}
+@media screen and (min-width: 1440px) {
+	html {
+		background-color: cadetblue;
+	}
+	
+	.a, .b, .c, .d, .e {
+		visibility: hidden;
+	}
+	
+	.d {
+		visibility: visible;
+	}
+}
+@media screen and (min-width: 1920px) {
+	html {
+		background-color: cornflowerblue;
+	}
+	
+	.a, .b, .c, .d, .e {
+		visibility: hidden;
+	}
+	
+	.e {
+		visibility: visible;
+	}
+}

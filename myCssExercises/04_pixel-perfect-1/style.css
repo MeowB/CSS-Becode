@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #d74949;
+	font-style: none;
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+
+.background {
+	background-color: #f3f3f3;
+	margin: 0 180px;
+	min-height: 100vh;
+}
+
+h1 {
+	position: relative;
+	padding-top: 100px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18.75px;
+}
+
+h1 span {
+	position: relative;
+	top: -0.25rem;
+	display: inline-block;
+	border-bottom: 1px solid #d9d9d9;
+	width: 50px;
+	height: 1px;
+	font-size: 0.5em;
+}
+
+h2 {
+	text-align: end;
+	padding-right: 50px;
+	font-weight: 800;
+	font-size: 16px;
+}
+
+main {
+	width: 100%;
+}
+
+main > p {
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+
+main p span {
+	color: #8f2727;
+}
+
+.card {
+	position: relative;
+	margin-top: 40px;
+	margin-left: 50px;
+	width: 200px;
+	height: 300px;
+	background-color: white;
+	box-shadow: 0px 4px 4px 0 #00000040;
+	border-radius: 15px;
+}
+
+.card > img {
+	border-radius: 15px 15px 0 0;
+	width: 100%;
+}
+
+.card ul {
+	display: flex;
+	list-style: none;
+}
+
+.card ul li {
+	margin: 10px 5px;
+}
+
+.card ul img {
+	height: 18px;
+}
+
+.text-content {
+	padding: 20px 0 0 20px;
+	font-size: 14px;
+}
+
+.circle{
+	position: absolute;
+	display: inline-block;
+	width: 54px;
+	height: 54px;
+	border-radius: 50%;
+	background-color: #d9d9d9;
+	right: -7px;
+	bottom: -27px;
+}
+
+footer {
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: #3a3a3a;
+	text-align: center;
+}
+
+footer .rectangle {
+	display: inline-block;
+	height: 27px;
+	width: 13px;
+	background-color: #d9d9d9;
+	position: relative;
+	left: 25px;
+}
+
+footer p {
+	color: white;
+}
+
+@media screen and (max-width: 400px) {
+	.card {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+}

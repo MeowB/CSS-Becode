@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: 'Noto Sans';
+}
+
+main {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	border-radius: 27px;
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+	border-bottom: 1px solid #000;
+	margin: 0 50px;
+}
+
+h1 {
+	font-weight: 300;
+	font-size: 36px;
+	color: #292929;
+	margin: 35px 95px 0 95px;
+}
+
+li {
+	font-size: 16px;
+	text-transform: uppercase;
+	list-style-image: url('./ressources/check-mark.svg');
+	text-align: left;
+	vertical-align:text-top;
+	display: flex;
+	line-height: 33px;
+	margin: 5px;
+	font-weight: 600;
+}
+
+img {
+	padding-right: 20px;
+}
+
+ul li:nth-child(3), ul li:nth-child(4), ul li:nth-child(5) {
+	list-style-image: url('./ressources/cross-mark.svg');
+}
+
+body {
+	background-color: #2d4480;
+}
+
+.card {
+	background-color: #ffffff;
+	width: 288px;
+	text-align: center;
+	box-shadow: 5px 20px 50px;
+}
+
+.textContent {
+	padding: 0 50px
+}
+
+.textContent h2 {
+	color: #292929;
+	font-size: 36px;
+}
+
+.textContent p {
+	font-family: 'allan';
+	color: #2d4480;
+	font-size: 36px;
+	text-align: end;
+}
+
+button {
+	position: relative;
+	top: 34px;
+	align-self: center;
+	display: inline-block;
+	padding: 17px 34px;
+	width: fit-content;
+	border-radius: 27px;
+	border: none;
+	height: 68px;
+	background-color: #ffbc0f;
+
+	font-size: 16px;
+	font-weight: 600;
+}

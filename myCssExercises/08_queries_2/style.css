@@ -1,0 +1,92 @@
+@import url('../../reset.css');
+
+.container {
+	width: 100vw;
+}
+
+.container-flex div, .container-grid div{
+	width: 100%;
+	height: 100px;
+}
+
+.container-flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.container-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (min-width: 768px) {
+	.container-flex {
+		flex-direction: row;
+	}
+
+	.container-grid {
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: 1fr;
+	}
+}
+
+
+@media screen and (min-width: 1280px) {
+	.container-flex {
+		flex-direction: row;
+	}
+
+	.container-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+
+@media screen and (min-width: 1440px) {
+	.container-flex {
+		flex-direction: row;
+	}
+
+	.container-grid {
+		grid-template-columns: repeat(6, 1fr);
+		grid-template-rows: 1fr;
+	}
+}
+
+.container-flex div:nth-child(1) {
+	background-color: palegoldenrod;
+}
+.container-flex div:nth-child(2) {
+	background-color: palegreen;
+}
+.container-flex div:nth-child(3) {
+	background-color: paleturquoise;
+}
+.container-flex div:nth-child(4) {
+	background-color: palevioletred;
+}
+.container-flex div:nth-child(5) {
+	background-color: lightblue;
+}
+.container-flex div:nth-child(6) {
+	background-color: lightcoral;
+}
+
+.container-grid div:nth-child(1) {
+	background-color: palegoldenrod;
+}
+.container-grid div:nth-child(2) {
+	background-color: palegreen;
+}
+.container-grid div:nth-child(3) {
+	background-color: paleturquoise;
+}
+.container-grid div:nth-child(4) {
+	background-color: palevioletred;
+}
+.container-grid div:nth-child(5) {
+	background-color: lightblue;
+}
+.container-grid div:nth-child(6) {
+	background-color: lightcoral;
+}

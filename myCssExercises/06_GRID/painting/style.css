@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan:wght@400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	width: 100%;
+	height: 100vh;
+	font-family: 'Noto Sans';
+	background-color: #eee;
+}
+
+main {
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.painting {
+	width: auto;
+	height: auto;
+	display: grid;
+	gap: 9px;
+	background-color: #000;
+	grid-template-columns: 320px 198px 153px 50px;
+	grid-template-rows: 414px 130px 155px 22px;
+}
+
+[class^="box-"] {
+	/* border: 4.5px solid black; */
+	background-color: skyblue;
+	display: grid;
+	place-items: center;
+}
+
+[class^="box-1"] {
+	border-top: none;
+	border-left: none;
+	background-color: red;
+}
+
+[class^="box-2"] {
+	border-top: none;
+	border-right: none;
+	background-color: white;
+	grid-column-start: 2;
+	grid-column-end: 5;
+}
+
+[class^="box-3"] {
+	border-left: none;
+	background-color: white;
+	grid-row-start: 2;
+	grid-row-end: 4;
+}
+
+[class^="box-4"] {
+	background-color: white;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 4;
+}
+
+[class^="box-5"] {
+	border-right: none;
+	background-color: blue;
+	border-bottom: 10px solid black;
+}
+
+[class^="box-6"] {
+	border-top: none;
+	border-right: 0;
+	border-bottom: 0;
+	background-color: white;
+	grid-row-start: 3;
+	grid-row-end: 5;
+}
+
+[class^="box-7"] {
+	border-left: none;
+	border-bottom: none;
+	background-color: white;
+}
+
+[class^="box-8"] {
+	border-bottom: none;
+	background-color: yellow;
+}
+
+[class^="box-9"] {
+	border-bottom: none;
+	background-color: #333;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+		rel="stylesheet">
+
+	<link rel="stylesheet" href="./styles/style.css">
+
+	<title>FLEX GRID RESPONSIVE</title>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="img">
+				<img src="./ressources/W.svg" alt="" class="logo">
+			</div>
+
+			<button class="hamburger">
+				<span class="hamburger-middle-line"></span>
+			</button>
+			<button class="cross">
+				<span class="cross-line-1"></span>
+				<span class="cross-line-2"></span>
+			</button>
+
+			<ul class="menu">
+				<li>Home</li>
+				<li>New</li>
+				<li>Popular</li>
+				<li>Trending</li>
+				<li>Categories</li>
+			</ul>
+		</div>
+	</header>
+	<main>
+		<div class="grid-3-top container">
+			<div class="hero">
+				<img class="hero-img-mobile" src="./ressources/hero_mobile.png" alt="">
+				<img class="hero-img-desktop" src="./ressources/hero_desktop.png" alt="">
+			</div>
+			<div class="heading">
+				<h1>The Bright Future of Web 3.0?</h1>
+			</div>
+			<div class="text-content">
+				<p>We dive into the next evolution of the web that claims to put the power of the platforms back
+					into the hands of the people. But is it really fulfilling its promise?</p>
+				<button>READ MORE</button>
+			</div>
+			<aside>
+				<h2>New</h2>
+				<ul>
+					<li>
+						<h3>Hydrogen VS Electric Cars</h3>
+						<p>Will hydrogen-fueld cars ever catch up with EVs?</p>
+					</li>
+					<li>
+						<h3>The Downsides of AI Artistry</h3>
+						<p>What are the possible adverse effects of on-demmand AI image generation</p>
+					</li>
+					<li>
+						<h3>Is VC Funding Drying Up?</h3>
+						<p>Private Funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+					</li>
+				</ul>
+			</aside>
+		</div>
+		<div class="grid-3-bottom container">
+			<div class="1">
+				<div class="img">
+					<img src="./ressources/Bitmap_1.png" alt="">
+				</div>
+				<div class="text-content">
+					<span>01</span>
+					<h4>Revivng Retro PCs</h4>
+					<p>What happens when old PCs are given modern upgrades?</p>
+				</div>
+			</div>
+			<div class="2">
+				<div class="img">
+					<img src="./ressources/Bitmap_2.png" alt="">
+				</div>
+				<div class="text-content">
+					<span>02</span>
+					<h4>Top 10 Laptops of 2022</h4>
+					<p>Our best picks for various needs and budgets.</p>
+				</div>
+
+			</div>
+			<div class="3">
+				<div class="img">
+					<img src="./ressources/Bitmap_3.png" alt="">
+				</div>
+				<div class="text-content">
+					<span>01</span>
+					<h4>The Growth of Gaming</h4>
+					<p>How the pandemic has sparked fresh opportunities</p>
+				</div>
+
+			</div>
+		</div>
+	</main>
+	<script src="./main.js"></script>
+</body>
+
+</html>
