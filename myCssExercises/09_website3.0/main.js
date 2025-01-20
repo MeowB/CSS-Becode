@@ -1,11 +1,13 @@
 let cross = document.querySelector('.cross')
 let hamburger = document.querySelector('.hamburger')
 let menu = document.querySelector('.menu')
+let body = document.querySelector('body')
 
 cross.addEventListener('click', () => {
 	hamburger.style.display = 'inline-block'
 	cross.style.display = 'none'
 	hamburger.style.opacity = '0'
+	body.style.overflowY = 'auto'
 
 
 	let i = 1
@@ -34,6 +36,8 @@ hamburger.addEventListener('click', () => {
 	cross.style.display = 'inline-block'
 	hamburger.style.display = 'none'
 	menu.style.display = 'inline-block'
+	body.style.overflowY = 'hidden'
+
 
 	cross.style.opacity = '0'
 	let i = 0

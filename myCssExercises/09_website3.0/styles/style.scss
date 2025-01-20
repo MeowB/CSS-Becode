@@ -1,5 +1,6 @@
 @import url(./reset.css);
 
+
 .container {
 	padding: 28px 16px 0 16px;
 }
@@ -10,8 +11,10 @@
 }
 
 header {
-
+	background-color: white;
+	padding: 28px 16px 0 16px;
 	.container {
+		padding: 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -82,7 +85,7 @@ header {
 		}
 
 		.menu {
-			margin-top: 50px;
+			margin-top: 55px;
 			background-color: #fff;
 			width: 100%;
 			position: fixed;
